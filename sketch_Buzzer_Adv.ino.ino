@@ -12,6 +12,19 @@ oldvalue=currentvalue; // remember that we have sent this value
 }
 
 */
+
+/*
+Pin2=Speaker
+Pin3=fiveVoltOut(for activating motors)
+Pins{4,5,6}=green,yellow,red LEDs
+Pins{7,8}=secLaserRec,earth
+Pin9=blueLED(for_earthQ_detect)
+Pin10=DHT;
+Pin11=nothing;
+Pin12=TX;
+Pin13=RX;
+
+*/
 #include <SoftwareSerial.h>
 
 SoftwareSerial BTserial(13, 12); // RX | TX
